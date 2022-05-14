@@ -1,0 +1,124 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --cor00:#7380ec;
+    --cor01:#ff7782;
+    --cor02:#41f1b6;
+    --cor03:#ffbb55;
+    --cor04:#fff;
+    --cor05:#7d8da1;
+    --cor06:#dce1eb;
+    --cor07:#363949;
+    --cor08:rgba(132, 139, 200, 0.18);
+    --cor09:#111e88;
+    --cor10:#677483;
+    --cor11:#f6f6f9;
+
+    --border-radius-c: 2rem;
+    --border-radius-01: 0.4rem;
+    --border-radius-02: 0.8rem;
+    --border-radius-03: 1.2rem;
+
+    --padding-c: 1.8rem;
+    --padding-01: 1.2rem;
+
+    --box-shadow: 0 2rem 3rem var(--cor04);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: poppins, sans-serif;
+    font-size: 0.88rem;
+    background-color: var(--cor11);
+    user-select: none;
+    overflow-x: hidden;
+}
+
+a {
+    color: var(--cor07);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 0.87rem;
+}
+
+h4 {
+    font-size: 0.8rem;
+}
+
+h5 {
+    font-size: 0.77rem;
+}
+
+small {
+    font-size: 0.76rem;
+}
+
+.profile-photo {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.text-muted {
+    color: var(--cor05);
+}
+
+p {
+    color: var(--cor10);
+}
+
+b {
+    color: var(--cor10);
+}
+
+.primary {
+    color: var(--cor00);
+}
+
+.danger {
+    color: var(--cor01);
+}
+
+.success {
+    color: var(--cor02);
+}
+
+.warning {
+    color: var(--cor03);
+}
+
+
