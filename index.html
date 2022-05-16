@@ -10,6 +10,9 @@
 </head>
 <body>
     <div class="container">
+        
+        <!--------------------SIDEBAR--------------------------->
+
         <aside>
             <div class="top">
                 <div class="logo">
@@ -23,7 +26,7 @@
             <div class="sidebar">
                 <a href="#">
                     <span class="material-symbols-outlined">grid_view</span>
-                    <h3>Painel de Controle</h3>
+                    <h3>Dashboard</h3>
                 </a>
                 <a href="#" class="active">
                     <span class="material-symbols-outlined">inventory</span>
@@ -56,6 +59,109 @@
                 </a>
             </div>
         </aside>
+
+        <main>
+            <h1>Dashboard</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <!--------------------CHAMADOS--------------------------->
+
+            <div class="insights">
+                <div class="calls">
+                    <span class="material-symbols-outlined">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Novos chamados</h3>
+                            <h1>10</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Ultimas 24H</small>
+                </div>
+
+            <!--------------------AVALIAÇÃO--------------------------->
+
+            <div class="rating">
+                <span class="material-symbols-outlined">thumb_up</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Avaliação</h3>
+                        <h1>100</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="number">
+                            <p>100%</p>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted">Ultimas 24H</small>
+            </div>
+
+            <!--------------------AVALIAÇÃO--------------------------->
+
+            <div class="reopened">
+                <span class="material-symbols-outlined">lock_open</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Chamados reabertos</h3>
+                        <h1>40</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                        <div class="number">
+                            <p>40</p>
+                        </div>
+                    </div>
+                </div>
+                <small class="text-muted">Ultimas 24H</small>
+            </div>
+
+            </div>
+
+        <!--------------------TABELA--------------------------->
+            
+        <div class="recent-calls">
+            <h2>Chamados Recentes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Usuário</th>
+                        <th>Número do Chamado</th>
+                        <th>Tempo Aberto</th>
+                        <th>Nível</th>
+                        <th>Urgencia</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>João 2108</td>
+                        <td>30150</td>
+                        <td>5 min</td>
+                        <td>N2</td>
+                        <td class="warning">Média</td>
+                        <td class="primary">Detalhes</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#">Mostre Tudo</a>
+        </div>
+        </main>
     </div>
 </body>
 </html>
