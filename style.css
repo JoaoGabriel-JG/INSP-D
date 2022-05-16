@@ -348,6 +348,18 @@ main .insights small {
 
 /*======================== TABELA DE CHAMADOS ========================*/
 
+main .recent-calls .low {
+    color: rgb(30, 170, 30);
+}
+
+main .recent-calls .med {
+    color: rgba(226, 226, 13, 0.856);
+}
+
+main .recent-calls .high {
+    color: red;
+}
+
 main .recent-calls {
     margin: 2rem;
 }
@@ -369,4 +381,25 @@ main .recent-calls table {
 main .recent-calls table:hover {
     box-shadow: none;
 }
+
+main table tbody td {
+    height: 2.8rem;
+    border-bottom: 1px solid var(--cor08);
+    color: var(--cor10);
+}
+
+main table tbody tr:last-child td {
+    border: none;
+
+}
+
+main .recent-calls a {
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: var(--cor00); 
+}
+
+/*======================== TOPO ========================*/
+
 
