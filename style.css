@@ -479,4 +479,46 @@ main .recent-calls a {
 
 /*======================== FÓRUM ========================*/
 
+.right .forum {
+    margin-top: 2rem;
+}
 
+.right .forum h2 {
+    margin-bottom: 0.8rem;
+}
+
+.right .forum .item {
+    background-color: var(--cor04);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+    padding: 1.4rem var(--padding-c);
+    border-radius: var(--border-radius-03);
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.right .forum .item:hover {
+    box-shadow: none;
+}
+
+.right .forum .item .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 0;
+    width: 100%;
+}
+
+.right .forum .item .icon {
+    background-color: var(--cor00);
+    padding: 0.6rem;
+    color: var(--cor04);
+    border-radius: 50%;
+    display: flex;
+}
+
+.right .forum .add-duvida {
+    background-color: var(--cor00);
+}
