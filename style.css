@@ -135,7 +135,6 @@ b {
 }
 
 aside .top {
-    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -520,5 +519,73 @@ main .recent-calls a {
 }
 
 .right .forum .add-duvida {
-    background-color: var(--cor00);
+    background-color: transparent;
+    border: 2px dashed var(--cor00);
+    color: var(--cor00);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .forum .add-duvida div {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.right .forum .add-duvida div h3 {
+    font-weight: 600;
+}
+
+/*======================== QUERIE TABLET/NOTEBOOK ========================*/
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 94%;
+        grid-template-columns: 7rem auto 23rem;
+    }
+
+    aside .logo  h2{
+        display: none;
+    }
+
+    aside .sidebar a {
+        width: 5.6rem;
+    }
+
+    aside .sidebar a:last-child {
+        position: relative;
+        margin-top: 1.8rem;
+    }
+
+    main .insights {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    main .recent-calls {
+        width: 94%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 2rem 0 0 8.8rem;
+    }
+
+    main .recent-calls table {
+        width: 83vw;
+    }
+
+    main table thead tr th:last-child,
+    main table thead tr th:first-child {
+        display: none;
+    }
+
+}
+
+/*======================== QUERIE MOBILE ========================*/
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
 }
