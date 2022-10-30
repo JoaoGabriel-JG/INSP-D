@@ -1,8 +1,8 @@
 // Menu Button
 
-const sideMenu = document.querySelector("aside")
-const menuBtn = document.querySelector("#menu-button")
-const closeBtn = document.querySelector("#close-btn")
+const sideMenu = document.getElementsByTagName("aside")
+const menuBtn = document.getElementById("#menu-button")
+const closeBtn = document.getElementById("#close-btn")
 
 menuBtn.addEventListenner('click', () => {
     sidebar.style.display = 'block'
