@@ -1,15 +1,15 @@
 // Menu Button
 
-const sideMenu = document.getElementsByTagName("aside")
-const menuBtn = document.getElementById("#menu-button")
-const closeBtn = document.getElementById("#close-btn")
+const sideMenu = document.querySelector("aside")
+const menuBtn = document.querySelector("#menu-btn")
+const closeBtn = document.querySelector("#close-btn")
 
 menuBtn.addEventListenner('click', () => {
-    sidebar.style.display = 'block'
+    sideMenu.style.display = 'block'
 })
 
 closeBtn.addEventListenner('click', () => {
-    sidebar.style.display = 'none'
+    sideMenu.style.display = 'none'
 })
 
 
